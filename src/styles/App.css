@@ -1,0 +1,25 @@
+
+  .App{
+    display: flex;
+    height: 100vh;
+  }
+  .SideNavArea-Container{
+    display: flex;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+  }
+  .SideNavArea-One{
+    min-width: 200px;
+    max-width: 200px;    
+  }  
+  .FlatTree-Arrow{
+    cursor: pointer;
+  }
+  .SortArrow-Arrow{
+    cursor: pointer;
+    color: rgb(207, 207, 207);
+  }
+  .SortArrow-Arrow--Activated{
+    color: black;
+  }
+
